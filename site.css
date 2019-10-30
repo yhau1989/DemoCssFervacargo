@@ -1,0 +1,104 @@
+
+logincontent{
+    max-width: 300px;
+}
+
+.greeFerva{
+    background-color: #0bb634;
+}
+
+.backFly{
+    background-image: url(https://images.unsplash.com/photo-1541524628935-fabc748e27db?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=80) !important;
+    background-repeat: no-repeat !important;
+    background-position: center 1px !important;
+}
+
+/* index */
+
+.hero.is-large.greeFerva > .hero-head > .container > .level > .level-left > .level-item > .subtitle.is-5{
+    margin-top: 5px;
+    color: rgb(255, 255, 255);
+}
+
+.hero.is-large.greeFerva > .hero-head > .container > .level > .level-right > .level-item > a{
+    margin-top: 5px;
+    color: hsla(0,0%,100%,.7);
+}
+
+.hero.is-large.greeFerva > .hero-head > .container > .level > .level-right > .level-item > a:hover{
+    margin-top: 5px;
+    color: rgba(255, 255, 255, 0.979);
+}
+
+#title_site > .container > h1, h2 {
+    color: rgb(255, 255, 255) !important;
+    text-align: center !important;;
+}
+
+#img_brand{
+    text-align: center;
+    top: -197px;
+    position: relative;
+    margin-bottom: -200px;
+}
+
+#img_brand > img{
+    height: 400px;
+}
+
+.icon.is-xlarge {
+    width: 4rem;
+    height: 4rem;
+}
+
+#currencies {
+    background-color: #0bb634;
+    color: #fff!important;
+}
+
+#currencies .container {
+    background-image: url(image/map.png);
+    background-repeat: no-repeat;
+    background-position: center 30px;
+}
+
+
+
+
+/* index */
+
+/*Login*/
+
+
+.hero.is-fullheight.greeFerva > .hero-head > .container > .level > .level-left > .level-item > .subtitle.is-5{
+    margin-top: 5px;
+    color: rgb(255, 255, 255);
+}
+
+.hero.is-fullheight.greeFerva > .hero-head > .container > .level > .level-right > .level-item > a{
+    margin-top: 5px;
+    color: hsla(0,0%,100%,.7);
+}
+
+.hero.is-fullheight.greeFerva > .hero-head > .container > .level > .level-right > .level-item > a:hover{
+    margin-top: 5px;
+    color: rgba(255, 255, 255, 0.979);
+}
+
+.panel_login{
+    max-width: 300px !important;
+}
+
+.wordbackground{
+    background-image: url(image/map.png);
+    background-repeat: no-repeat;
+    background-position: center 150px;
+}
+
+.link{
+    color: hsla(0,0%,100%,.7);
+}
+
+.link:hover {
+    color: rgba(255, 255, 255, 0.979);
+}

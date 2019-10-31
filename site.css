@@ -102,3 +102,52 @@ logincontent{
 .link:hover {
     color: rgba(255, 255, 255, 0.979);
 }
+
+/*login*/
+
+
+/*dashboard*/
+
+#panel_menu{
+    background-color: #FAFAFA;
+}
+
+.bgreen
+{
+    background-color: #2AB634 !important;
+}
+
+
+#menu{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: solid 2px #fafafa;
+    margin-bottom: 12px;
+}
+
+
+.bd-categories a{
+    font-size: 14px;
+    color: #7a7a7a;
+}
+
+.bd-categories a:hover{
+    font-size: 14px;
+    color: #3273dc;
+}
+
+
+.bd-category-list{
+    display: none;
+    padding-left: 2rem;
+}
+
+.bd-category.is-active .bd-category-list {
+    display: block;
+}
+
+
+
+
+/*dashboard*/
+

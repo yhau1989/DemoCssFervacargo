@@ -109,7 +109,10 @@ logincontent{
 /*dashboard*/
 
 #panel_menu{
-    background-color: #FAFAFA;
+    /*background-color: #FAFAFA;*/
+    background-color: #f2f2f2;
+    border: solid 1px #f2f2f2;
+    
 }
 
 .bgreen
@@ -141,6 +144,20 @@ logincontent{
     display: none;
     padding-left: 2rem;
 }
+
+.bd-category.is-active > .bd-category-header > .bd-category-toggle > .icon {
+    color: #3273dc;
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.bd-category.is-active > .bd-category-header > a.bd-category-name > strong{
+    color: #3273dc !important;
+}
+
 
 .bd-category.is-active .bd-category-list {
     display: block;

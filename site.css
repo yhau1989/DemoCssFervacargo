@@ -163,8 +163,14 @@ logincontent{
     display: block;
 }
 
+.MyForm
+{
+    padding-right: .75rem;
+}
 
-
+.control.is-expanded > .select , .select > *{
+    width: 100%;
+}
 
 /*dashboard*/
 

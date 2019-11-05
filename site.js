@@ -3,13 +3,13 @@ function accessLoginProcees(){
 
     let loc = window.location.origin;
     //window.location = loc+'/dashboard.html'
-    window.location = '/dashboard.html'
+    window.location = './dashboard.html'
 }
 
 function downloadProforma()
 {
    // window.location = '/shared/12150784.pdf'
-    window.open('/shared/12150784.pdf', '_blank');
+    window.open('./shared/12150784.pdf', '_blank');
 }
 
 

@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="site.css">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <script src="site.js"></script>
-    <title>Usuarios</title>
+    <title>Transacciones</title>
 </head>
 <body>
     
@@ -124,7 +124,6 @@
                                     
                                           <ul class="bd-category-list">
                                             
-                                              
                                               <li>
                                                 <a href="usuarios.html">
                                                   Usuarios
@@ -355,9 +354,9 @@
                                         
                                         
                                           <li>
-                                            <a href="newproforma.html">
-                                              Nueva
-                                            </a>
+                                          <a href="newproforma.html">
+                                            Nueva
+                                          </a>
                                           </li>
                                         
                                         </ul>
@@ -434,27 +433,27 @@
                   <nav class="breadcrumb" aria-label="breadcrumbs">
                     <ul>
                       <li><a href="#">Administración</a></li>
-                      <li class="is-active"><a href="#" aria-current="page">Usuarios</a></li>
+                      <li class="is-active"><a href="#" aria-current="page">Transacciones</a></li>
                     </ul>
                   </nav>
 
-                  <h1 class="title">Usuarios</h1>
-                  <h3 class="subtitle">Administración de Usuarios</h3>
+                  <h1 class="title">Transacciones</h1>
+                  <h3 class="subtitle">Administración de transacciones</h3>
 
 
                   <div class="MyForm">
 
                     <div class="field is-grouped" >
 
-                      <div class="control">
-                        <label class="label">Nombres</label>
+                      <div class="control is-expanded">
+                        <label class="label">Transacción</label>
                         <div class="control">
                           <input class="input" type="text" placeholder="nombres">
                         </div>
                       </div>
                       
-                      <div class="control">
-                        <label class="label">Apellidos</label>
+                      <div class="control is-expanded">
+                        <label class="label">Path</label>
                         <div class="control has-icons-left has-icons-right">
                           <input class="input" type="text" placeholder="apellidos" value="">
                           <span class="icon is-small is-left">
@@ -467,74 +466,10 @@
                         <p class="help is-success">This username is available</p>
                       </div>
 
-                      <div class="control is-expanded">
-                          <label class="label">Email</label>
-                          <div class="control has-icons-left has-icons-right">
-                            <input class="input" type="email" placeholder="email" value="">
-                            <span class="icon is-small is-left">
-                              <i class="fas fa-envelope"></i>
-                            </span>
-                            <span class="icon is-small is-right">
-                              <i class="fas fa-exclamation-triangle"></i>
-                            </span>
-                          </div>
-                          <p class="help is-danger">This email is invalid</p>
-                        </div>
-
-                    </div>
-
                     
-                    <div class="field">
-                      <label class="label">Dirección</label>
-                      <div class="control has-icons-left has-icons-right">
-                        <input class="input" type="text" placeholder="dirección" value="">
-                        <span class="icon is-small is-left">
-                          <i class="fas fa-envelope"></i>
-                        </span>
-                        <span class="icon is-small is-right">
-                          <i class="fas fa-exclamation-triangle"></i>
-                        </span>
-                      </div>
-                      <p class="help is-danger">This email is invalid</p>
+
                     </div>
-                    
-                    <div class="field is-grouped">
 
-                      <div class="control is-expanded">
-
-                        <label class="label">Rol</label>
-                        <div class="control is-expanded">
-                          <div class="select">
-                            <select>
-                              <option>Seleccione un rol</option>
-                              <option>With options</option>
-                            </select>
-                          </div>
-                        </div>
-
-                      </div>
-
-                      <div class="control">
-                          <label class="label">Contraseña</label>
-                          <div class="control">
-                            <input class="input" type="password" placeholder="su contraseña">
-                          </div>
-                        </div>
-
-                        <div class="control">
-                            <label class="label">Teléfono</label>
-                            <div class="control">
-                              <input class="input" type="text" placeholder="teléfono">
-                            </div>
-                          </div>
-
-                          <div class="control">
-                              <label class="label">Celular</label>
-                              <div class="control">
-                                <input class="input" type="text" placeholder="celular">
-                              </div>
-                            </div>
-                    </div>
                     
                     <div class="field">
                         <div class="control">
@@ -547,88 +482,54 @@
                         <table class="table is-bordered">
                             <thead>
                               <tr>
-                                <th>Nombres</th>
-                                <th>Apellidos</th>
-                                <th>Email</th>
-                                <th>Teléfono</th>
-                                <th>Celular</th>
-                                <th>Rol</th>
-                                
+                                <th>Transacción</th>
+                                <th>Path</th>                                    
                               </tr>
                             </thead>
                             <tbody>
                               <tr>
-                                <td>Samuel Gerardo</td>
-                                <td>Pilay Muñoz</td>
-                                <td>yhau1989@gmail.com</td>
-                                <td>300600</td>
-                                <td>0959556489</td>
                                 <td>Admin</td>
+                                <td>administracion/roles.php</td>
                                 <td>
-                                    <div class="control">
-                                        <button class="button is-black is-small">Editar</button>
-                                      </div>
+                                  <div class="control">
+                                    <button class="button is-black is-small">Editar</button>
+                                  </div>
                                 </td>
                                 <td>
-                                    <div class="control">
-                                        <button class="button is-black is-small">Eliminar</button>
-                                      </div>
+                                  <div class="control">
+                                    <button class="button is-black is-small">Eliminar</button>
+                                  </div>
                                 </td>
                               </tr>
                               <tr>
-                                <td>Samuel Gerardo</td>
-                                <td>Pilay Muñoz</td>
-                                <td>yhau1989@gmail.com</td>
-                                <td>300600</td>
-                                <td>0959556489</td>
                                 <td>Admin</td>
+                                <td>administracion/usuarios.php</td>
                                 <td>
-                                    <div class="control">
-                                        <button class="button is-black is-small">Editar</button>
-                                      </div>
+                                  <div class="control">
+                                    <button class="button is-black is-small">Editar</button>
+                                  </div>
                                 </td>
                                 <td>
-                                    <div class="control">
-                                        <button class="button is-black is-small">Eliminar</button>
-                                      </div>
+                                  <div class="control">
+                                    <button class="button is-black is-small">Eliminar</button>
+                                  </div>
                                 </td>
                               </tr>
                               <tr>
-                                <td>Samuel Gerardo</td>
-                                <td>Pilay Muñoz</td>
-                                <td>yhau1989@gmail.com</td>
-                                <td>300600</td>
-                                <td>0959556489</td>
-                                <td>Admin</td>
+                                <td>Operador Import</td>
+                                <td>guias-importaciones/nueva.php</td>
                                 <td>
-                                    <div class="control">
-                                        <button class="button is-black is-small">Editar</button>
-                                      </div>
+                                  <div class="control">
+                                    <button class="button is-black is-small">Editar</button>
+                                  </div>
                                 </td>
                                 <td>
-                                    <div class="control">
-                                        <button class="button is-black is-small">Eliminar</button>
-                                      </div>
+                                  <div class="control">
+                                    <button class="button is-black is-small">Eliminar</button>
+                                  </div>
                                 </td>
                               </tr>
-                              <tr>
-                                <td>Samuel Gerardo</td>
-                                <td>Pilay Muñoz</td>
-                                <td>yhau1989@gmail.com</td>
-                                <td>300600</td>
-                                <td>0959556489</td>
-                                <td>Admin</td>
-                                <td>
-                                    <div class="control">
-                                        <button class="button is-black is-small">Editar</button>
-                                      </div>
-                                </td>
-                                <td>
-                                    <div class="control">
-                                        <button class="button is-black is-small">Eliminar</button>
-                                      </div>
-                                </td>
-                              </tr>
+
                             </tbody>
                           </table>
                     </div>

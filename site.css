@@ -172,5 +172,14 @@ logincontent{
     width: 100%;
 }
 
+
+.table.is-small{
+    font-size: .75rem;
+}
+
+.control.strech , .control.strech > *{
+    width: 100px;
+}
+
 /*dashboard*/
 

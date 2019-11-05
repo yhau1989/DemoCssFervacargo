@@ -6,6 +6,11 @@ function accessLoginProcees(){
     window.location = '/dashboard.html'
 }
 
+function downloadProforma()
+{
+   // window.location = '/shared/12150784.pdf'
+    window.open('/shared/12150784.pdf', '_blank');
+}
 
 
 const expand = (x) => {
